@@ -1,0 +1,72 @@
+2025-04-11 23:48:34.590 +03:00 [INF] Запуск приложения
+2025-04-11 23:48:36.248 +03:00 [FTL] Приложение завершило работу из-за ошибки.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\Alex\source\repos\VSC_Projects\lab-15-AlexToshin\backend\DatabaseTask3\Program.cs:line 142
+2025-04-11 23:49:06.893 +03:00 [INF] Запуск приложения
+2025-04-11 23:49:07.136 +03:00 [FTL] Приложение завершило работу из-за ошибки.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\Alex\source\repos\VSC_Projects\lab-15-AlexToshin\backend\DatabaseTask3\Program.cs:line 142
+2025-04-11 23:49:56.742 +03:00 [INF] Запуск приложения
+2025-04-11 23:49:57.352 +03:00 [INF] Now listening on: http://localhost:5059
+2025-04-11 23:49:57.359 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-11 23:49:57.361 +03:00 [INF] Hosting environment: Development
+2025-04-11 23:49:57.364 +03:00 [INF] Content root path: C:\Users\Alex\source\repos\VSC_Projects\lab-15-AlexToshin\backend\DatabaseTask3
+2025-04-11 23:59:53.448 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-04-11 23:59:53.520 +03:00 [INF] Пользователь с ролью user запрашивает доступ к /books с методом GET
+2025-04-11 23:59:53.521 +03:00 [INF] Пользователь с ролью user запрашивает доступ к /cart с методом GET
+2025-04-11 23:59:53.616 +03:00 [INF] Начало выполнения запроса GET /cart
+2025-04-11 23:59:53.616 +03:00 [INF] Начало выполнения запроса GET /books
+2025-04-11 23:59:53.619 +03:00 [INF] Запрос на получение списка всех книг
+2025-04-11 23:59:53.619 +03:00 [INF] Запрос на получение корзины пользователя "f63b95a5-84b4-4ed1-a238-9341f66d7668"
+2025-04-11 23:59:53.622 +03:00 [INF] Получение элементов корзины для пользователя "f63b95a5-84b4-4ed1-a238-9341f66d7668"
+2025-04-11 23:59:54.462 +03:00 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT b."Id", b."AuthorId", b."CategoryId", b."Description", b."ImageUrl", b."Price", b."Title", a."Id", a."Name", a."Surname", c."Id", c."Description", c."Name"
+FROM "Books" AS b
+INNER JOIN "Authors" AS a ON b."AuthorId" = a."Id"
+INNER JOIN "Categories" AS c ON b."CategoryId" = c."Id"
+2025-04-11 23:59:54.462 +03:00 [INF] Executed DbCommand (35ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT c."Id", c."BookId", c."DateAdded", c."Quantity", c."UserId", b."Id", b."AuthorId", b."CategoryId", b."Description", b."ImageUrl", b."Price", b."Title", a."Id", a."Name", a."Surname", c0."Id", c0."Description", c0."Name"
+FROM "CartItems" AS c
+INNER JOIN "Books" AS b ON c."BookId" = b."Id"
+INNER JOIN "Authors" AS a ON b."AuthorId" = a."Id"
+INNER JOIN "Categories" AS c0 ON b."CategoryId" = c0."Id"
+WHERE c."UserId" = @__userId_0
+ORDER BY c."DateAdded" DESC
+2025-04-11 23:59:54.479 +03:00 [WRN] Длительное выполнение запроса GET /cart завершено со статусом 200. Время выполнения: 864 мс
+2025-04-11 23:59:54.484 +03:00 [DBG] Получено 4 книг из базы данных
+2025-04-11 23:59:54.486 +03:00 [WRN] Длительное выполнение запроса GET /books завершено со статусом 200. Время выполнения: 871 мс
+2025-04-11 23:59:54.533 +03:00 [INF] Пользователь с ролью user запрашивает доступ к /cart с методом GET
+2025-04-11 23:59:54.536 +03:00 [INF] Начало выполнения запроса GET /cart
+2025-04-11 23:59:54.538 +03:00 [INF] Запрос на получение корзины пользователя "f63b95a5-84b4-4ed1-a238-9341f66d7668"
+2025-04-11 23:59:54.538 +03:00 [INF] Пользователь с ролью user запрашивает доступ к /books с методом GET
+2025-04-11 23:59:54.539 +03:00 [INF] Получение элементов корзины для пользователя "f63b95a5-84b4-4ed1-a238-9341f66d7668"
+2025-04-11 23:59:54.541 +03:00 [INF] Начало выполнения запроса GET /books
+2025-04-11 23:59:54.542 +03:00 [INF] Запрос на получение списка всех книг
+2025-04-11 23:59:54.597 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT b."Id", b."AuthorId", b."CategoryId", b."Description", b."ImageUrl", b."Price", b."Title", a."Id", a."Name", a."Surname", c."Id", c."Description", c."Name"
+FROM "Books" AS b
+INNER JOIN "Authors" AS a ON b."AuthorId" = a."Id"
+INNER JOIN "Categories" AS c ON b."CategoryId" = c."Id"
+2025-04-11 23:59:54.598 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT c."Id", c."BookId", c."DateAdded", c."Quantity", c."UserId", b."Id", b."AuthorId", b."CategoryId", b."Description", b."ImageUrl", b."Price", b."Title", a."Id", a."Name", a."Surname", c0."Id", c0."Description", c0."Name"
+FROM "CartItems" AS c
+INNER JOIN "Books" AS b ON c."BookId" = b."Id"
+INNER JOIN "Authors" AS a ON b."AuthorId" = a."Id"
+INNER JOIN "Categories" AS c0 ON b."CategoryId" = c0."Id"
+WHERE c."UserId" = @__userId_0
+ORDER BY c."DateAdded" DESC
+2025-04-11 23:59:54.600 +03:00 [DBG] Получено 4 книг из базы данных
+2025-04-11 23:59:54.602 +03:00 [INF] Запрос GET /cart завершен со статусом 200. Время выполнения: 66 мс
+2025-04-11 23:59:54.603 +03:00 [INF] Запрос GET /books завершен со статусом 200. Время выполнения: 62 мс

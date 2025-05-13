@@ -1,0 +1,14 @@
+C:\Users\Alex\source\repos\VSC_Projects\lab-15-AlexToshin\backend\BookStore.Core\bin\Debug\net9.0\BookStore.Core.deps.json
+C:\Users\Alex\source\repos\VSC_Projects\lab-15-AlexToshin\backend\BookStore.Core\bin\Debug\net9.0\BookStore.Core.runtimeconfig.json
+C:\Users\Alex\source\repos\VSC_Projects\lab-15-AlexToshin\backend\BookStore.Core\bin\Debug\net9.0\BookStore.Core.dll
+C:\Users\Alex\source\repos\VSC_Projects\lab-15-AlexToshin\backend\BookStore.Core\bin\Debug\net9.0\BookStore.Core.pdb
+C:\Users\Alex\source\repos\VSC_Projects\lab-15-AlexToshin\backend\BookStore.Core\obj\Debug\net9.0\BookStore.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex\source\repos\VSC_Projects\lab-15-AlexToshin\backend\BookStore.Core\obj\Debug\net9.0\BookStore.Core.AssemblyInfoInputs.cache
+C:\Users\Alex\source\repos\VSC_Projects\lab-15-AlexToshin\backend\BookStore.Core\obj\Debug\net9.0\BookStore.Core.AssemblyInfo.cs
+C:\Users\Alex\source\repos\VSC_Projects\lab-15-AlexToshin\backend\BookStore.Core\obj\Debug\net9.0\BookStore.Core.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\VSC_Projects\lab-15-AlexToshin\backend\BookStore.Core\obj\Debug\net9.0\BookStore.Core.sourcelink.json
+C:\Users\Alex\source\repos\VSC_Projects\lab-15-AlexToshin\backend\BookStore.Core\obj\Debug\net9.0\BookStore.Core.dll
+C:\Users\Alex\source\repos\VSC_Projects\lab-15-AlexToshin\backend\BookStore.Core\obj\Debug\net9.0\refint\BookStore.Core.dll
+C:\Users\Alex\source\repos\VSC_Projects\lab-15-AlexToshin\backend\BookStore.Core\obj\Debug\net9.0\BookStore.Core.pdb
+C:\Users\Alex\source\repos\VSC_Projects\lab-15-AlexToshin\backend\BookStore.Core\obj\Debug\net9.0\BookStore.Core.genruntimeconfig.cache
+C:\Users\Alex\source\repos\VSC_Projects\lab-15-AlexToshin\backend\BookStore.Core\obj\Debug\net9.0\ref\BookStore.Core.dll

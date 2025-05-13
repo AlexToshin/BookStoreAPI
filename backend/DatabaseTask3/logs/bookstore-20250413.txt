@@ -1,0 +1,44 @@
+2025-04-13 17:34:04.129 +03:00 [INF] Запуск приложения
+2025-04-13 17:34:05.138 +03:00 [INF] Now listening on: http://localhost:5000
+2025-04-13 17:34:05.144 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-13 17:34:05.145 +03:00 [INF] Hosting environment: Development
+2025-04-13 17:34:05.147 +03:00 [INF] Content root path: C:\Users\Alex\source\repos\VSC_Projects\lab-15-AlexToshin\backend\DatabaseTask3
+2025-04-13 17:44:03.132 +03:00 [INF] Запуск приложения
+2025-04-13 17:44:03.517 +03:00 [INF] Now listening on: http://localhost:5000
+2025-04-13 17:44:03.527 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-13 17:44:03.530 +03:00 [INF] Hosting environment: Development
+2025-04-13 17:44:03.533 +03:00 [INF] Content root path: C:\Users\Alex\source\repos\VSC_Projects\lab-15-AlexToshin\backend\DatabaseTask3
+2025-04-13 17:44:25.465 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-04-13 17:44:41.881 +03:00 [INF] Application is shutting down...
+2025-04-13 18:00:58.748 +03:00 [INF] Запуск приложения
+2025-04-13 18:00:59.252 +03:00 [INF] Now listening on: http://localhost:5000
+2025-04-13 18:00:59.256 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-13 18:00:59.257 +03:00 [INF] Hosting environment: Development
+2025-04-13 18:00:59.258 +03:00 [INF] Content root path: C:\Users\Alex\source\repos\VSC_Projects\lab-15-AlexToshin\backend\DatabaseTask3
+2025-04-13 18:05:31.590 +03:00 [INF] Запуск приложения
+2025-04-13 18:05:31.987 +03:00 [INF] Now listening on: http://localhost:5000
+2025-04-13 18:05:31.992 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-13 18:05:31.993 +03:00 [INF] Hosting environment: Development
+2025-04-13 18:05:31.994 +03:00 [INF] Content root path: C:\Users\Alex\source\repos\VSC_Projects\lab-15-AlexToshin\backend\DatabaseTask3
+2025-04-13 18:09:14.561 +03:00 [INF] Application is shutting down...
+2025-04-13 18:14:35.888 +03:00 [INF] Запуск приложения
+2025-04-13 18:14:36.122 +03:00 [FTL] Приложение завершило работу из-за ошибки.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\Alex\source\repos\VSC_Projects\lab-15-AlexToshin\backend\DatabaseTask3\Program.cs:line 142
+2025-04-13 18:14:57.560 +03:00 [INF] Запуск приложения
+2025-04-13 18:14:57.931 +03:00 [INF] Now listening on: http://localhost:5000
+2025-04-13 18:14:57.935 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-13 18:14:57.936 +03:00 [INF] Hosting environment: Development
+2025-04-13 18:14:57.937 +03:00 [INF] Content root path: C:\Users\Alex\source\repos\VSC_Projects\lab-15-AlexToshin\backend\DatabaseTask3
+2025-04-13 18:15:53.841 +03:00 [INF] Запуск приложения
+2025-04-13 18:15:54.201 +03:00 [INF] Now listening on: http://localhost:5000
+2025-04-13 18:15:54.208 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-13 18:15:54.210 +03:00 [INF] Hosting environment: Development
+2025-04-13 18:15:54.210 +03:00 [INF] Content root path: C:\Users\Alex\source\repos\VSC_Projects\lab-15-AlexToshin\backend\DatabaseTask3
+2025-04-13 18:16:01.276 +03:00 [INF] Application is shutting down...
